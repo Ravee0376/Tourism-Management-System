@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=divice-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/destination.css">
+	<title>Destinations</title>
+	<style type="text/css">
+		.container .box .name-text input{
+			position: relative;
+			display: none;
+			background: transparent;
+			border: 1px solid #fff;
+			top: -20px;
+			color: #fff;
+			text-decoration: none;
+			transition: 0.6s ease;
+			text-align: center;
+		}
+		.btn{
+			padding: 5px 40px;
+		}
+		.btn1{
+			margin: 0px -20px;
+			padding: 5px 40px;
+		}
+		.btn2{
+			padding: 5px 60px;
+		}
+		.btn3{
+			padding: 5px 37px;
+			margin: 0px -2px;
+		}
+		.btn4{
+			padding: 5px 50px;
+		}
+		.btn5{
+			padding: 5px 25px;
+		}
+		.container .box:hover .name-text input{
+			display: block;
+			top: -20px;
+		}
+		.container .box .name-text input:hover{
+			background-color: #fff;
+		    color: #000;
+		}
+	</style>
+</head>
+<body>
+	<h1 class="heading">Poupular Destinations</h1>
+	
+	<div class="main">
+        <ul>
+          <ul class="list">
+            <li class="logo"><a href="mainPage.html"><img src="earth-globe.png" alt="Logo" style="width:36px;height:36px"></a></li>
+            <div class="search">
+            <div class="search">
+	            <form method="POST" action="info.php">
+	              <input type="text" name="search_p" placeholder="Search.." size="50">
+	          
+	              <input type="image" name="submit_p" src="search_icon.png" alt="Search image" style="width:22;height:22; margin-left: 35px;">
+	            </form>
+          	</div>
+          </ul>
+          <ul class="list2">
+            <li><a href="mainPage.html">Home</a></li>
+            <li class="active-menu"><a id="long" href="destination.html">Destination</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+			<li><a href="feedback.html">Feedback</a></li>
+			<li><a href="index.html">Logout</a></li>
+          </ul>
+        </ul>
+    </div>
+	<div class="container">
+		<div class="box">
+			<div class="imgBox">
+				<img src="https://www.travelmate.com.bd/wp-content/uploads/2019/07/Jaflong-Travel.jpg" alt="jaflong Image" style="width: auto;height: 270px;">
+			</div>
+			<div class="name-text name-pading1 top1">
+				<h1>Jaflong</h1>
+				<form method="POST" action="info.php">
+					<input type="submit" name="jaflong" class="btn1" value="Visit">
+				</form>
+			</div>
+		</div>
+		<div class="box">
+			<div class="imgBox">
+				<img src="https://www.travelmate.com.bd/wp-content/uploads/2019/07/Ratargul-1000x530.jpg" alt="ratargul Image" style="width: auto;height: 270px;">
+			</div>
+			<div class="name-text name-pading2 top1">
+				<h1>Ratargul</h1>
+				<form method="POST" action="info.php">
+					<input type="submit" name="ratargul" class="btn" value="Visit">
+				</form>
+			</div>
+		</div>
+		<div class="box">
+			<div class="imgBox">
+				<img src="https://www.localguidesconnect.com/t5/image/serverpage/image-id/719136i9AF3534F75C210E8?v=v2" alt="Sada Image">
+			</div>
+			<div class="name-text name-pading3 top1">
+				<h1>Sada pathor</h1>
+				<form method="POST" action="info.php">
+					<input type="submit" name="sada Pathor" class="btn" value="Visit">
+				</form>
+			</div>
+		</div>
+		<div class="box">
+			<div class="imgBox">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/6/63/%E0%A6%B2%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%96%E0%A6%BE%E0%A6%B2.png" alt="lalakhal Image">
+			</div>
+			<div class="name-text name-pading4 top1">
+				<h1>Lalakhal</h1>
+				<form method="POST" action="info.php">
+					<input type="submit" name="lalakhal" class="btn" value="Visit">
+				</form>
+			</div>
+		</div>
+		<div class="box">
+			<div class="imgBox">
+				<img src="https://www.localguidesconnect.com/t5/image/serverpage/image-id/1298414iD61DE420043F0377?v=v2" alt="Mazar Image">
+			</div>
+			<div class="name-text name-pading5 top2">
+				<h1>Mazar</h1>
+				<form method="POST" action="info.php">
+					<input type="submit" name="The Shah Jalal Dargah" class="btn5" value="Visit">
+				</form>
+			</div>
+		</div>
+		<div class="box">
+			<div class="imgBox">
+				<img src="https://www.travelmate.com.bd/wp-content/uploads/2019/05/Bichnakandi.jpg" alt="bichnakandi Image">
+			</div>
+			<div class="name-text name-pading6 top2">
+				<h1>Bichnakandi</h1>
+				<form method="POST" action="info.php">
+					<input type="submit" name="bichnakandi" class="btn2" value="Visit">
+				</form>
+			</div>
+		</div>
+		<div class="box">
+			<div class="imgBox">
+				<img src="https://dailyasianage.com/library/1493013021_5.jpg" alt="sreemangal Image">
+			</div>
+			<div class="name-text name-pading7 top2">
+				<h1>Sreemangal</h1>
+				<form method="POST" action="info.php">
+					<input type="submit" name="sreemangal" class="btn3" value="Visit">
+				</form>
+			</div>
+		</div>
+		<div class="box">
+			<div class="imgBox">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/SUST_B_Building.jpg/260px-SUST_B_Building.jpg" alt="SUST">
+			</div>
+			<div class="name-text name-pading8 top2">
+				<h1>SUST</h1>
+				<form method="POST" action="info.php">
+					<input type="submit" name="SUST" class="btn2" value="Visit">
+				</form>
+			</div>
+		</div>
+		<div class="box">
+			<div class="imgBox">
+				<img src="https://www.travelmate.com.bd/wp-content/uploads/2021/03/Lakkatura-Tea-Garden-Sylhet.jpg" alt="lakkatura">
+			</div>
+			<div class="name-text name-pading9 top3">
+				<h1>lakkatura</h1>
+				<form method="POST" action="info.php">
+					<input type="submit" name="lakkatura" class="btn3" value="Visit">
+				</form>
+			</div>
+		</div>
+		<!-- <div class="box">
+			<div class="imgBox">
+				<img src="images//destination//srinagar1.jpg" alt="Srinagar Image">
+			</div>
+			<div class="name-text name-pading10 top3">
+				<h1>Srinagar</h1>
+				<form method="POST" action="info.php">
+					<input type="submit" name="srinagar" class="btn4" value="Visit">
+				</form>
+			</div>
+		</div> -->
+		<!-- <div class="box">
+			<div class="imgBox">
+				<img src="images//destination//amritsar1.jpg" alt="Amritsar Image">
+			</div>
+			<div class="name-text name-pading11 top3">
+				<h1>Amritsar</h1>
+				<form method="POST" action="info.php">
+					<input type="submit" name="amritsar" class="btn4" value="Visit">
+				</form>
+			</div>
+		</div> -->
+		<!-- <div class="box">
+			<div class="imgBox">
+				<img src="images//destination//jogfalls1.jpg" alt="Jog Falls Image">
+			</div>
+			<div class="name-text name-pading12 top3">
+				<h1>Jog Falls</h1>
+				<form method="POST" action="info.php">
+					<input type="submit" name="jogfalls" class="btn2" value="Visit">
+				</form>
+			</div>
+		</div> -->
+	</div>
+</body>
+</html>
